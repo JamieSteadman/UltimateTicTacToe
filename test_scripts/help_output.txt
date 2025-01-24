@@ -1,0 +1,24 @@
+Usage: ./grid 
+
+This program creates a 9x9 grid GTK application with a grid of buttons.
+Each button represents a cell in a 9x9 grid, organized into nine 3x3 subgrids.
+
+When you click on a button, it alternates between 'X' and 'O', simulating a game turn.
+The buttons are indexed such that buttons[i][j], where:
+    - 'i' (0-8) represents the subgrid index (one of the nine 3x3 grids).
+    - 'j' (0-8) represents the box index within that subgrid.
+
+Run the program:
+    ./grid
+
+Optional Flags:
+    --help
+Example Usage:
+    ./grid
+    (Launches the GTK application with the 9x9 grid interface)
+
+Note:
+    - Ensure that GTK 3 development libraries are installed on your system.
+    - The application window displays a 9x9 grid with thicker borders outlining the nine 3x3 subgrids.
+    - Clicking on a button will place an 'X' or 'O', alternating each turn.
+    - The buttons become disabled after being clicked to prevent multiple selections.
