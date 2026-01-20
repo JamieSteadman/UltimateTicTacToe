@@ -1,5 +1,25 @@
-Ultimate Tic Tac Toe
+# Ultimate Tic Tac Toe
 
+## Overview
+
+### Game Startup
+
+Starting up the game initializes an empty grid 
+![Startup Screen](./screenshots/startup-screen.PNG)
+
+### Turn mechanics
+
+After putting an x in the bottom right square of the top left grid, only the bottom right square is available for the next player's turn
+![After a Move](./screenshots/first-click.PNG)
+
+### Winning the game
+![Win Screen](./screenshots/win-screen.PNG)
+
+After one player scores 3 in a row (player x in the above case), the user is presented with a terminal interface
+![Terminal Interface](./screenshots/win-terminal.PNG)
+
+### Game Rules & Info
+Below is more information about the game and its rules, as well as how to compile and run it on your own system.
 
 Purpose
 
